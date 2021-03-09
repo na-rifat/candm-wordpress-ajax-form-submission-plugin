@@ -1,0 +1,306 @@
+@media only screen and (max-width: 360px) {
+    .candm-nav li:last-child {
+        display: block !important;
+        margin-left: 20px;
+    }
+    .candm-nav li:last-child a {
+        border: none !important;
+    }
+    .input-group input[type="submit"],
+    .submit-button,
+    .input-group input[type="button"],
+    .candm-button {
+        width: calc(50% - 20px) !important;
+        font-size: 0.8em !important;
+    }
+}
+.candm-nav li:last-child {
+    display: inline-flex;
+}
+
+.candm-nav li:last-child a {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid black;
+    align-self: center;
+}
+.candm-nav li:last-child a:hover {
+    /* padding: 6px 12px !important; */
+    background-color: rgba(128, 128, 128, 0.247);
+}
+.candm-nav li:last-child a.elementor-item-active {
+    background-color: rgba(128, 128, 128, 0.247);
+}
+.candm-lang-nav li:not(:last-child) {
+    border-right: 1px solid black;
+}
+.candm-lang-nav li a {
+    /* padding: 6px 12px !important; */
+}
+
+.candm-lang-nav {
+    /* margin-top: 8px; */
+}
+
+.candm-lang-nav .elementor-item-active,
+.candm-nav .elementor-item-active {
+    font-weight: 700 !important;
+}
+.candm-accordion .elementor-tab-title {
+    text-align: center !important;
+}
+.candm-accordion .elementor-accordion-item {
+    border-right: none !important;
+    border-left: none !important;
+    border-top: 1px solid #666666 !important;
+    margin-top: -1px;
+}
+.candm-accordion .elementor-accordion-item:not(:last-child) {
+    border-bottom: none !important;
+}
+.candm-accordion .elementor-tab-content {
+    border: none !important;
+}
+.candm-contact-item a {
+    color: #85754e;
+}
+
+/* RSVP form */
+.input-group {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+.input-group > * {
+    display: inline-block;
+    width: 100%;
+}
+.candm-rsvp-item,
+.sub-group .candm-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+.candm-rsvp-item .candm-rsvp-col-50 {
+    width: calc(50% - 10px);
+}
+.candm-rsvp-item .candm-rsvp-col-100 {
+    width: 100%;
+}
+
+.candm-rsvp-container {
+    color: rgb(133, 117, 78);
+}
+
+.input-group input[type="checkbox"] {
+    margin-right: 20px;
+    height: 20px;
+    width: 20px;
+}
+.input-checkbox {
+    display: flex;
+    align-items: center;
+}
+.input-group input[type="submit"],
+.submit-button,
+.input-group input[type="button"] {
+    background-color: rgb(158, 158, 158);
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: auto;
+    padding: 15px 50px;
+    cursor: pointer;
+    display: inline-block;
+}
+.candm-button {
+    background-color: rgb(158, 158, 158);
+    color: white;
+    font-size: 18px;
+    width: auto;
+    padding: 8px 26px;
+    cursor: pointer;
+    display: inline-block;
+}
+.input-group[type="submit"]:first-child,
+.submit-button,
+.input-group[type="button"]:first-child,
+.input-group .candm-button:first-child {
+    margin-right: 15px;
+}
+.input-group input[type="submit"]:hover,
+.submit-button:hover,
+.input-group input[type="button"]:hover,
+.candm-button:hover {
+    transition: all 0.3s linear;
+    background-color: rgb(94, 94, 94);
+}
+
+.sub-header {
+    width: 100%;
+    text-align: center;
+}
+.sub-header h3 {
+    font-size: 1.2em;
+    color: rgb(133, 117, 78);
+}
+.sub-header p {
+    font-size: 0.9em;
+}
+.sub-group {
+    border-bottom: 2px solid rgb(94, 94, 94);
+    border-top: 2px solid rgb(94, 94, 94);
+    margin: 30px 0;
+    padding: 30px 0;
+}
+.sub-group:last-child {
+    border-bottom: none;
+}
+.sub-description {
+    text-align: justify;
+    padding-top: 50px;
+}
+
+/* Rose image background */
+.rose-image img {
+    position: relative;
+    z-index: 20;
+}
+/* .rose-image img::after { */
+.rose-bg {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: rgb(253, 237, 228);
+    z-index: 10;
+}
+
+/* Accordion */
+.candm-accordion .elementor-accordion-item:first-child {
+    display: none;
+}
+
+/* @media only screen and (max-width: 1300px){
+    .candm-responsive-bg{
+        height: 280px;
+    }
+}
+@media only screen and (max-width: 850px){
+    .candm-responsive-bg{
+        height: 220px;
+    }
+} */
+
+/* Guest list */
+
+.guest-list table {
+    border: 1px solid gold;
+    border-collapse: collapse;
+}
+.guest-list thead tr {
+    background-color: rgb(255, 203, 73);
+    color: black;
+}
+.guest-list tbody tr {
+    color: black;
+}
+.guest-list tbody tr:nth-child(odd) {
+    background-color: rgba(204, 204, 204, 0.336);
+}
+.guest-list tbody tr:nth-child(even) {
+    background-color: white;
+}
+.guest-list table th,
+.guest-list table td {
+    padding: 5px 30px;
+}
+
+/* Loading spinner */
+.loader {
+    border: 3px solid #f3f3f3;
+    border-radius: 50% !important;
+    border-top: 3px solid gold;
+    width: 25px;
+    height: 25px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+    display: none;
+    margin-right: 10px;
+}
+.loader.is-active {
+    display: inline-block !important;
+}
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.candm-read-more i {
+    color: rgb(158, 158, 158);
+    font-size: 2em;
+}
+
+/* Widgets */
+.candm-contact {
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: center;
+    min-width: 350px;
+    height: auto;
+    align-items: center;
+}
+
+.candm-contact img {
+    width: 160px !important;
+    height: 160px !important;
+    border-radius: 50% !important;
+    margin-bottom: 30px !important;
+}
+.candm-contact > * {
+    margin: 0 !important;
+    color: rgb(113, 117, 78) !important;
+    letter-spacing: 1.8px;
+}
+
+.candm-contact h2 {
+    font-size: 18px;
+}
+.candm-contact-email,
+.candm-contact-phone,
+.candm-contact span {
+    font-size: 14px;
+    font-weight: lighter;
+}
+.submit-button {
+    display: inline-flex;
+    padding: 6.5px 50px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.guest-list tbody tr{
+    cursor: pointer;
+}

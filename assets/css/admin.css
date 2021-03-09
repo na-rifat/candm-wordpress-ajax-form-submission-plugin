@@ -1,0 +1,22 @@
+/* Guest list */
+
+.guest-list table{
+    border: 1px solid gold;
+    border-collapse: collapse;    
+}
+.guest-list thead tr{
+    background-color: rgb(255, 203, 73);
+    color: black;
+}
+.guest-list tbody tr{
+    color: black;
+}
+.guest-list tbody tr:nth-child(odd){
+    background-color: rgba(204, 204, 204, 0.336);
+}
+.guest-list tbody tr:nth-child(even){
+    background-color: white;
+}
+.guest-list table th, .guest-list table td{
+    padding: 5px 30px;
+}

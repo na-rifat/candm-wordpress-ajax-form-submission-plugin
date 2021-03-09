@@ -1,0 +1,22 @@
+{
+    "name": "rafalotech/candm",
+    "description": "Candm website plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL v2",
+    "authors": [
+        {
+            "name": "Rafalo tech",
+            "email": "admin@rafalotech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "candm\\": "./includes"
+        },
+        "files": [
+            "./includes/functions.php"
+        ]
+    }
+}
